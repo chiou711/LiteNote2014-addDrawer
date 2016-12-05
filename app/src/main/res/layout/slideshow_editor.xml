@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+   	android:id="@+id/editorLinearLayout" 
+   	android:layout_width="match_parent"
+   	android:layout_height="match_parent"
+   	android:orientation="vertical" >
+   	<LinearLayout android:id="@+id/buttonLinearLayout"
+      android:layout_margin="5dp" 
+      android:layout_width="match_parent" 
+      android:layout_height="70dp">
+      <Button android:id="@+id/playMusicButton"
+         android:layout_width="0dp"
+         android:layout_height="match_parent" 
+         android:layout_weight="1"
+         android:drawableTop="@drawable/ic_menu_play_clip"
+         android:text="Play music"></Button>
+      <Button android:id="@+id/playSlideshowButton"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:drawableTop="@drawable/ic_menu_play_clip"
+         android:text="@string/slide_show_button_play"></Button>
+   	</LinearLayout>
+    <com.cwc.litenote.lib.DragSortListView
+        android:id="@+id/plListView"
+      	android:layout_margin="5dp" 
+      	android:layout_width="match_parent" 
+      	android:layout_height="0dp" 
+      	android:layout_weight="1">
+   	</com.cwc.litenote.lib.DragSortListView>   	
+</LinearLayout>

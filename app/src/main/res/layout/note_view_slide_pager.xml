@@ -1,0 +1,71 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/imageContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+    <com.cwc.litenote.TouchImageView
+        android:id="@+id/img_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="img_picture" /> 
+    <Button
+        android:id="@+id/image_view_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+		android:layout_alignLeft="@+id/img_picture"
+		android:visibility="gone"  />     
+    <Button
+        android:id="@+id/image_view_mode"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+		android:layout_alignRight="@+id/img_picture"
+		android:visibility="gone"  /> 
+    <Button
+        android:id="@+id/image_previous"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+		android:layout_alignLeft="@+id/img_picture"
+        android:visibility="gone"          />
+    <Button
+        android:id="@+id/image_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+		android:layout_alignRight="@+id/img_picture"
+		android:visibility="gone"  />
+	 </RelativeLayout>     
+	 
+     <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:visibility="gone" />	 
+        
+     <LinearLayout
+        android:id="@+id/textGroup"     
+		android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="5" 
+    	android:orientation="vertical" >
+     <com.cwc.litenote.CustomWebView 
+        android:id="@+id/textBody"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" 
+        style="?android:textAppearanceMedium"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingLeft="3dp"
+        android:autoLink="all"
+        android:layout_marginBottom="16dp" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item
+        android:id="@+id/ADD_NEW_NOTE"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Add New Note"/>
+    <item android:id="@+id/action_mode"
+        android:orderInCategory="0"
+        android:title="@string/view_note_mode"
+        android:showAsAction="always|withText" />
+    <item android:id="@+id/VIEW_ALL"
+        android:orderInCategory="1"
+        android:title="@string/view_note_mode_all"
+        android:showAsAction="always" />
+    <item android:id="@+id/VIEW_PICTURE"
+        android:orderInCategory="2"
+        android:title="@string/view_note_mode_picture"
+        android:showAsAction="always" />
+    <item android:id="@+id/VIEW_TEXT"
+        android:orderInCategory="3"
+        android:title="@string/view_note_mode_text"
+        android:showAsAction="always" />
+    <item android:id="@+id/action_previous"
+        android:title="@string/slide_action_previous"
+        android:icon="@android:drawable/ic_media_previous"
+        android:showAsAction="always|withText" />    
+    <item android:id="@+id/action_next"
+        android:title="@string/slide_action_next"
+        android:icon="@android:drawable/ic_media_next"
+        android:showAsAction="always|withText" />
+  	<item
+        android:id="@+id/TAKE_PICTURE"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Take Picture"/>
+   	<item
+        android:id="@+id/HANDLE_CHECKED_NOTES"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Handle Checked Notes"/>
+   	<item
+        android:id="@+id/CHECK_ALL"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Checked All"/>
+   	<item
+        android:id="@+id/UNCHECK_ALL"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Unchecked All"/>
+   	<item
+        android:id="@+id/MOVE_CHECKED_NOTE"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="Move to"/>  
+   	<item
+        android:id="@+id/COPY_CHECKED_NOTE"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="Copy checked Note"/>
+   	<item
+        android:id="@+id/MAIL_CHECKED_NOTE"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        android:title="Mail checked Note"/>      
+   	<item
+        android:id="@+id/DELETE_CHECKED_NOTE"
+        android:orderInCategory="6"
+        android:showAsAction="always"
+        android:title="Delete checked Note"/>
+   	<item
+        android:id="@+id/SLIDE_SHOW_CHECKED_NOTE"
+        android:orderInCategory="7"
+        android:showAsAction="always"
+        android:title="Slide show checked Note"/>
+   	<item
+        android:id="@+id/ADD_NEW_PAGE"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Add New Page"/>
+   	<item
+        android:id="@+id/CHANGE_PAGE_COLOR"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Change Page Color"/>
+   	<item
+        android:id="@+id/SHIFT_PAGE"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Shift Page"/>
+   	<item
+        android:id="@+id/SHOW_BODY"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="Show Body"/>
+   	<item
+        android:id="@+id/ENABLE_DND"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="Enable Drag and Drop"/>   
+   	<item
+        android:id="@+id/SEND_PAGES"
+        android:orderInCategory="6"
+        android:showAsAction="never"
+        android:title="Send Pages"/>   
+   	<item
+        android:id="@+id/GALLERY"
+        android:orderInCategory="7"
+        android:showAsAction="never"
+        android:title="gallery"/>           
+   	<item
+        android:id="@+id/CONFIG_PREF"
+        android:orderInCategory="8"
+        android:showAsAction="never"
+        android:title="Config"/>
+   	<item
+        android:id="@+id/ADD_TEXT"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Text"/>
+   	<item
+        android:id="@+id/ADD_NEW_PICTURE"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="New picture"/>   	
+   	<item
+        android:id="@+id/ADD_OLD_PICTURE"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Old picture"/>
+	<item
+        android:id="@+id/ADD_MUSIC"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="Music"/>  
+</menu>

@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/editItemLayout" 
+   	android:layout_width="match_parent" 
+   	android:layout_height="wrap_content"
+   	android:orientation="horizontal"
+	android:descendantFocusability="blocksDescendants"   	
+   	android:background="@android:color/white">
+    <ImageView
+        android:id="@+id/img_check"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:contentDescription="img_check"/>    	
+   	<TextView android:id="@+id/mediaInfo"
+    	android:layout_width="0dp" 
+    	android:layout_height="wrap_content"
+      	android:layout_weight="1"
+		android:layout_gravity="center_vertical"  
+		android:gravity="center_vertical" 
+		android:textAppearance="?android:attr/textAppearanceListItem"		   	
+      	android:layout_margin="5dp"></TextView>
+    <ImageView
+        android:id="@+id/img_dragger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0dp"
+        android:src="@+drawable/ic_dragger_off" 
+        android:contentDescription="@string/drag_handler"/>   	
+   	<Button android:id="@+id/deleteButton"
+      	android:layout_width="50dp"
+      	android:layout_height="50dp" 
+		android:layout_marginRight="0dp" 
+      	android:drawableTop="@drawable/ic_delete"
+      	android:text="Delete"></Button>
+</LinearLayout>   

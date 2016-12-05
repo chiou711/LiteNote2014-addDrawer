@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout android:id="@+id/selectWarning"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RadioGroup
+        android:id="@+id/radioGroup_new_at"
+        android:layout_width="match_parent"
+        android:layout_height="191dp" >
+
+	<RadioButton
+	    android:id="@+id/radio_new_at_top"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:text="@+string/add_new_note_top" />
+	
+	<RadioButton
+	    android:id="@+id/radio_new_at_bottom"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:text="@+string/add_new_note_bottom" />
+	
+	<RadioButton
+	    android:id="@+id/radio_new_on_select"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:text="@+string/add_new_note_optional" />
+	</RadioGroup>
+	        
+    <CheckedTextView
+        android:id="@+id/chkSetPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"  
+        android:text="@+string/add_new_note_optional"
+        android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:gravity="center_vertical" />
+</LinearLayout>
+</ScrollView>
